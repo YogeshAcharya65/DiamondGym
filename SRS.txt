@@ -1,0 +1,8 @@
+intro
+document
+Purpose
+Document ko purpose
+Intended Audience 
+End users
+Tools and techonology used
+Resources requirement

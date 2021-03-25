@@ -1,0 +1,83 @@
+.header {
+  background-image: url(gym.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 50px 50px;
+  margin-top: -140px;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+}
+
+.welcome:hover {
+  background-color: #b7c4bd;
+}
+
+
+/*----------------classes----------*/
+.inner{
+  overflow: hidden;
+}
+
+.inner img{
+  transition: all 1.5s ease;
+}
+
+.inner:hover img{
+  transform: scale(1.5);
+}
+
+.card:hover{
+  background-color: #EFFFE6;
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+  box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+
+/*-----------------fit------------*/
+
+.write{
+  font-family: Arial;
+  
+}
+
+ .fit{
+  background: lightgreen;
+  width: 450px;
+  padding: 3rem;
+ }
+
+.fit_image{
+  width:100%;
+  min-height:100px;
+    
+}
+
+/*------------------------gallery---------------*/
+
+
+ .gallery{
+     width:100%;
+     min-height:100px;
+     object-fit: cover;
+ }
+
+.point{
+  padding-top: 20px;
+
+ }
+
+.point:hover{
+
+  opacity: 0.75;
+  transform:scale(1.2);
+
+}
+
+

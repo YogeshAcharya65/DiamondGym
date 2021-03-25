@@ -1,0 +1,19 @@
+
+{
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	background-image: url(Gym.jpg);
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.welcome{
+	 padding: 50px 100px;
+	 margin-top: -140px;
+	 background-color: #fff;
+	 box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}

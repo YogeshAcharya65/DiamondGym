@@ -1,0 +1,6 @@
+.header {
+  background-image: url(gym.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
