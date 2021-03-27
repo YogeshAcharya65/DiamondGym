@@ -1,7 +1,5 @@
 body{
 	font-family: Arial;
-	margin: 0;
-	padding: 20px;
 	background-color: #f1f1f1;
 }
 
@@ -51,8 +49,57 @@ h2{
 	margin-bottom: 10px;
 }
 
-/*----------------social media blog--------------*/
-.social-menu ul{
+/*----------------social media--------------*/
+
+.social-menu {
+    font-size: 50px;
+    padding-top: 5px;
+}
+
+.social{
+	color: #F3F3F5;
+	margin: 10px;
+
+}
+
+.social:hover{
+	color: #3b5998;
+}
+
+.social1{
+	color: #fff;
+	margin: 10px;
+}
+
+.social1:hover{
+	color:  #00acee;
+}
+
+.social2{
+	color: #fff;
+	margin: 10px;
+}
+
+.social2:hover{
+	color: #e4405f;
+}
+
+.social3{
+	color: #fff;
+	margin: 10px;
+}
+
+.social3:hover{
+	color: #FF0000;
+}
+
+.text{
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+}
+
+/*.social-menu ul{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -98,4 +145,4 @@ h2{
 }
 .social-menu ul li:nth-child(3) a:hover{
 	background-color: #55acee;
-}
+}*/
