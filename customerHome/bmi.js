@@ -51,3 +51,15 @@ function calculateBMI() {
              `Your Body Mass Index is : <span>${bmi}</span>. This is considered Obese.`; 
     } 
 }
+
+ const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+        btnScrollToTop.addEventListner("click", function() {
+
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+          });
+
+        });
